@@ -78,19 +78,20 @@ The goal is to predict whether a transaction is fraudulent while balancing:
 ## 🖼️ Key Visuals
 
 <p float="left">
-  <img src="../ieee-cis-fraud-detection/images/roc_curve.png" width="45%" />
-  <img src="../ieee-cis-fraud-detection/images/pr_curve.png"  width="45%" />
+  <img src="images/roc_curve.png" width="45%" />
+  <img src="images/pr_curve.png"  width="45%" />
 </p>
 
 <p float="left">
-  <img src="../ieee-cis-fraud-detection/images/confusion_f2_opt.png" width="45%" />
-  <img src="../ieee-cis-fraud-detection/images/confusion_prec90.png"  width="45%" />
+  <img src="images/confusion_f2_opt.png" width="45%" />
+  <img src="images/confusion_prec90.png"  width="45%" />
 </p>
 
 <p float="left">
-  <img src="../ieee-cis-fraud-detection/images/feature_importance.png" width="45%" />
-  <img src="../ieee-cis-fraud-detection/images/shap_summary_bar.png"  width="45%" />
+  <img src="images/feature_importance.png" width="45%" />
+  <img src="images/shap_summary_bar.png"  width="45%" />
 </p>
+
 
 ---
 
