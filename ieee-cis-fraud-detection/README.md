@@ -78,18 +78,17 @@ The goal is to predict whether a transaction is fraudulent while balancing:
 ## 🖼️ Key Visuals
 
 <p float="left">
-  <img src="images/roc_curve.png" width="45%" />
-  <img src="images/pr_curve.png"  width="45%" />
+  <img src="https://github.com/user-attachments/assets/f5da6768-41b5-4ca9-9511-e34258c845c5" width="45%" />
+  <img src="https://github.com/user-attachments/assets/7fe30913-4350-425c-b1a6-e742e9a04790" width="45%" />
 </p>
 
 <p float="left">
-  <img src="images/confusion_f2_opt.png" width="45%" />
-  <img src="images/confusion_prec90.png"  width="45%" />
+  <img src="https://github.com/user-attachments/assets/8e2ae36d-aa18-42c3-9b96-1edf8d1f5d53" width="45%" />
+  <img src="https://github.com/user-attachments/assets/9222594a-5709-4543-9546-9944df6c85fc" width="45%" />
 </p>
 
 <p float="left">
-  <img src="images/feature_importance.png" width="45%" />
-  <img src="images/shap_summary_bar.png"  width="45%" />
+  <img src="https://github.com/user-attachments/assets/7a345a97-cdf5-4ba7-bd38-88f805a2c69c" width="45%" />
 </p>
 
 
