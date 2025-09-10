@@ -53,16 +53,17 @@ Key business findings:
 
 ## 📊 Visualizations
 **ROC Curve (Validation):** All models perform similarly, ROC-AUC ≈ 0.84.  
-![ROC Curve](https://your-upload-link-here.png)
+![ROC Curve](https://github.com/user-attachments/assets/809ae7c7-ef16-4cda-ad02-529c07af86b3)
 
 **Precision-Recall Curve (Validation):** Precision stays well above baseline (0.27), PR-AUC ≈ 0.62.  
-![PR Curve](https://your-upload-link-here.png)
+![PR Curve](https://github.com/user-attachments/assets/e0f274af-3fa2-4162-9920-60fcb687655d)
 
 **Calibration Curve (Validation):** Predicted probabilities are well-calibrated, making thresholds reliable.  
-![Calibration Curve](https://your-upload-link-here.png)
+![Calibration Curve](https://github.com/user-attachments/assets/ae2eb576-932b-4a5b-ba59-d55d35e0327a)
 
 **Cumulative Gains Curve (Validation):** Top 20% of customers contain ~60%+ of churners — useful for campaign targeting.  
-![Cumulative Gains](https://your-upload-link-here.png)
+![Cumulative Gains](https://github.com/user-attachments/assets/58d5552e-0f5a-47cd-9a66-9cac63b39878)
+
 
 ---
 
