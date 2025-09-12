@@ -52,7 +52,7 @@ Both **XGBoost** and **CatBoost** achieved near-perfect performance:
 ### Confusion Matrices
 | XGBoost | CatBoost |
 |---------|----------|
-| ![xgb_cm](images/xgb_cm.png) | ![cat_cm](images/cat_cm.png) |
+| <img width="522" alt="XGBoost CM" src="https://github.com/user-attachments/assets/0b42887c-b259-4139-8cd7-d97c0a7a845e" /> | <img width="522" alt="CatBoost CM" src="https://github.com/user-attachments/assets/9a8b6fb2-14cf-4ca7-9ef9-6c57e27c87a2" /> |
 
 ✅ Very few misclassifications (<0.2%), **no missed Thermal <300°C faults**.  
 
@@ -61,7 +61,7 @@ Both **XGBoost** and **CatBoost** achieved near-perfect performance:
 ## 📊 Feature Importance
 XGBoost feature importance:  
 
-![xgb_importance](images/xgb_importance.png)  
+<img width="790" alt="XGB Importance" src="https://github.com/user-attachments/assets/7d138ca7-4d18-43e1-aba2-bd0a1a920e5b" />
 
 - **CH₄/H₂ ratio (R1)** is the strongest driver.  
 - **Carbon Monoxide (CO)** and **Ethane (C₂H₆)** are also critical.  
@@ -74,20 +74,20 @@ XGBoost feature importance:
 ## 🤖 Model Explainability (SHAP)
 
 ### Global Importance (per class)
-![shap_class_bar](images/shap_class_bar.png)
+<img width="937" alt="shap_class_bar" src="https://github.com/user-attachments/assets/1e3c96f4-eb48-43f6-9322-49677113a250" />
 
 ### Beeswarm (directional impact)
-![shap_beeswarm](images/shap_beeswarm.png)
+<img width="766" alt="shap_beeswarm" src="https://github.com/user-attachments/assets/b75745d6-e762-4dcf-89c6-9ae7a2d67324" />
 
 ### Local Explanations
 - **Normal sample**  
-![shap_normal](images/shap_normal.png)
+<img width="937" alt="shap_normal" src="https://github.com/user-attachments/assets/daa13a35-05c6-4cf9-a71d-4b4baf6bacfc" />
 
 - **Partial Discharge sample**  
-![shap_pd](images/shap_pd.png)
+<img width="895" alt="shap_pd" src="https://github.com/user-attachments/assets/fab3762e-5898-4da1-a1f9-5738c291bda7" />
 
 - **Thermal <300°C sample**  
-![shap_thermal](images/shap_thermal.png)
+<img width="937" alt="shap_thermal" src="https://github.com/user-attachments/assets/daa13a35-05c6-4cf9-a71d-4b4baf6bacfc" />
 
 ---
 
@@ -104,6 +104,3 @@ This project demonstrates how **domain expertise (Rogers Ratios)** can be combin
 - Improve transformer fault diagnosis accuracy.  
 - Provide interpretable results to engineers.  
 - Reduce the risk of costly transformer failures.  
-
----
-
