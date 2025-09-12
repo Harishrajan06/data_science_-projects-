@@ -53,4 +53,22 @@ End-to-end churn prediction pipeline using IBM’s Telco Customer Churn dataset.
 
 📊 Full details → `telco-churn-prediction`
 
+Transformer Fault Diagnosis (DGA)  
+Fault classification for power transformers using Dissolved Gas Analysis (DGA) data.
+
+Problem: Detect transformer faults (Normal, Partial Discharge, Thermal <300°C) using gas concentration ratios, since failures can cause costly outages.
+
+Approach:
+- Applied Rogers Ratio method for rule-based labeling.
+- Built ML models (XGBoost, CatBoost) on gas concentrations + ratios.
+- Used SHAP for explainability (global + per-class + local).
+
+Results:
+- XGBoost & CatBoost achieved ≈100% accuracy.
+- CH₄/H₂ ratio (R1) and CO identified as top drivers, consistent with engineering knowledge.
+- SHAP visualizations confirmed interpretability of model predictions.
+
+📊 Full details → [transformer-dga-fault-diagnosis](transformer-dga-fault-diagnosis)
+
+
 ---
