@@ -74,7 +74,7 @@ XGBoost feature importance:
 ## 🤖 Model Explainability (SHAP)
 
 ### Global Importance (per class)
-<img width="937" alt="shap_class_bar" src="https://github.com/user-attachments/assets/1e3c96f4-eb48-43f6-9322-49677113a250" />
+<img width="790" height="540" alt="Image" src="https://github.com/user-attachments/assets/edb714e7-da35-474c-8fde-5a29fbadf6b1" />
 
 ### Beeswarm (directional impact)
 <img width="766" alt="shap_beeswarm" src="https://github.com/user-attachments/assets/b75745d6-e762-4dcf-89c6-9ae7a2d67324" />
