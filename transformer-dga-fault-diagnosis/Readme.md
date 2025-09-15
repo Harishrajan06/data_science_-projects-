@@ -81,7 +81,7 @@ XGBoost feature importance:
 
 ### Local Explanations
 - **Normal sample**  
-<img width="937" alt="shap_normal" src="https://github.com/user-attachments/assets/daa13a35-05c6-4cf9-a71d-4b4baf6bacfc" />
+<img width="925" height="600" alt="Image" src="https://github.com/user-attachments/assets/f84a2c01-72e5-4f9a-8309-ecf696e34a9c" />
 
 - **Partial Discharge sample**  
 <img width="895" alt="shap_pd" src="https://github.com/user-attachments/assets/fab3762e-5898-4da1-a1f9-5738c291bda7" />
