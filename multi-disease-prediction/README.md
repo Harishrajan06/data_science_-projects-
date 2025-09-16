@@ -63,28 +63,30 @@ Key observations:
 
 **Binary Predictions (first 5 rows)**  
 
+
 ---
 
 ## 📊 Visualizations
 
 **1️⃣ Predicted Class Distribution**  
-- **Diabetes**:  
-  ![Predicted Class Distribution - Diabetes](path_to_image_diabetes.png)  
-- **Heart Disease**:  
-  ![Predicted Class Distribution - Heart Disease](path_to_image_heart.png)  
-- **Stroke**:  
-  ![Predicted Class Distribution - Stroke](path_to_image_stroke.png)  
+- **Diabetes:**  
+  ![Predicted Class Distribution - Diabetes](https://github.com/user-attachments/assets/f01a0599-a7f7-4078-bae4-ab8b870fd78f)  
+- **Heart Disease:**  
+  ![Predicted Class Distribution - Heart Disease](https://github.com/user-attachments/assets/2e3b1284-87f9-4f94-a1fe-8b8703070e6e)  
+- **Stroke:**  
+  ![Predicted Class Distribution - Stroke](https://github.com/user-attachments/assets/4fe6cffe-7cf2-459f-b6f1-dbf8c972317c)  
 
 **2️⃣ Confusion Matrices**  
 - **Diabetes Confusion Matrix**  
-  ![Confusion Matrix - Diabetes](path_to_cm_diabetes.png)  
+  ![Confusion Matrix - Diabetes](https://github.com/user-attachments/assets/fe57f7b3-9adf-4506-bd15-b2f9c6f4a96c)  
 - **Heart Disease Confusion Matrix**  
-  ![Confusion Matrix - Heart Disease](path_to_cm_heart.png)  
+  ![Confusion Matrix - Heart Disease](https://github.com/user-attachments/assets/5c1d682f-0a09-4f64-b527-27b1c1cbe2c9)  
 - **Stroke Confusion Matrix**  
-  ![Confusion Matrix - Stroke](path_to_cm_stroke.png)  
+  ![Confusion Matrix - Stroke](https://github.com/user-attachments/assets/6242a06c-3833-4f09-bf99-e05cc6f7d8f4)  
 
-**3️⃣ SHAP Summary Plots**  
-- Highlights most important features driving predictions for each disease.
+**3️⃣ SHAP Summary Plot**  
+- Global feature importance across all diseases:  
+  ![SHAP Summary Plot](https://github.com/user-attachments/assets/8c0d020d-f92a-4e98-8d52-5fbe8e66d8f7)
 
 ---
 
@@ -95,11 +97,8 @@ Key observations:
 
 ---
 
-## 🚀 Business/Healthcare Recommendations
+## 🚀 Healthcare Recommendations
 - Use model probabilities to **flag high-risk patients** for preventive screenings.  
 - Focus lifestyle interventions on patients with high BMI, hypertension, or prior heart conditions.  
 - Consider **data augmentation or additional stroke data** to improve predictive power.  
 - SHAP insights can inform **personalized treatment plans** for at-risk individuals.  
-
----
-
