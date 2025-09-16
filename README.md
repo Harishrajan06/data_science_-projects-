@@ -72,3 +72,24 @@ Results:
 
 
 ---
+
+### Multi-Disease Prediction (Diabetes, Heart Disease, Stroke)  
+Predict multiple common diseases simultaneously using patient health records.  
+
+**Problem:** Identify patients at risk of **Diabetes, Heart Disease, and Stroke** based on clinical and demographic features. Early prediction can help in preventive care and targeted interventions.  
+
+**Approach:**  
+- Merged three healthcare datasets (Diabetes, Heart Disease, Stroke) and aligned features.  
+- Handled missing values, scaled numeric features, and encoded categorical features.  
+- Built a **Random Forest-based Multi-Output Classifier** to predict multiple diseases simultaneously.  
+- Calibrated probabilities for more reliable predictions and used **SHAP** for feature explainability.  
+- Evaluated using **Accuracy, ROC-AUC, F1-Score**, and visualized predicted distributions and confusion matrices.  
+
+**Results:**  
+- High accuracy for Diabetes and Heart Disease (≈96–99%).  
+- Moderate performance for Stroke due to class imbalance (~85% ROC-AUC).  
+- Probabilities can be thresholded to adjust sensitivity for each disease.  
+- SHAP analysis highlights the most important medical features for each prediction.  
+
+📊 Full details → `multi-disease-prediction`
+
